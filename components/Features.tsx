@@ -125,7 +125,7 @@ function Cards() {
       <Card className="flex flex-grow flex-col justify-between gap-4 p-8 text-left bg-gray-900 dark:bg-secondary">
         <CardTitle className="grid text-white font-bold hover:text-red-600">
           <Link
-            href="/private-investigation-and-serveillance-servies"
+            href="/private-investigation-and-serveillance-services"
             className="grid gap-4 text-left  text-l lg:text-lg "
           >
             {" "}

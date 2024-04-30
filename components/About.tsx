@@ -126,7 +126,7 @@ const About = () => {
                   IT Security
                 </Link>{" "}
                 <Link
-                  href="/services/private-investigation-and-serveillance-servies"
+                  href="/services/private-investigation-and-serveillance-services"
                   className="flex  text-le text-l mx-4 md:text-lg text-white font-normal hover:text-gray-900 hover:bg-white p-1/2 px-1 rounded-lg"
                 >
                   Private Investigation & Surveillance Services
