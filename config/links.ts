@@ -56,7 +56,7 @@ export const dashboardLinks: Navigation = {
     {
       title: `Private Investigation &`,
       titleLeft: "Security Serveillance",
-      href: "/services/private-investigation-and-serveillance-services",
+      href: "/services/private-investigation-and-servillance-services",
 
       icon: "cctv",
     },

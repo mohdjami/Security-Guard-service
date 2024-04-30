@@ -85,7 +85,7 @@ export const ServicesMenu: React.FC<ServiceProps> = ({ className }) => {
                 IT Security
               </Link>{" "}
               <Link
-                href="/services/private-investigation-and-serveillance-services"
+                href="/services/private-investigation-and-servillance-services"
                 className="flex  text-left text-sm text-black font-bold hover:text-red-600"
               >
                 Private Investigation & Surveillance Services
