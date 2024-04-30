@@ -85,7 +85,7 @@ export const ServicesMenu: React.FC<ServiceProps> = ({ className }) => {
                 IT Security
               </Link>{" "}
               <Link
-                href="tel:+1 (514) 560‑5863"
+                href="/services/private-investigation-and-serveillance-services"
                 className="flex  text-left text-sm text-black font-bold hover:text-red-600"
               >
                 Private Investigation & Surveillance Services
