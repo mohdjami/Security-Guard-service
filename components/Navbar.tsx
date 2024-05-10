@@ -50,7 +50,7 @@ const Navbar = () => {
               Careers{" "}
             </Link>{" "}
             <Link
-              href="tel:+1 (514) 560‑5863"
+              href="/contact"
               className="flex font-sans text-xl text-red font-bold text-white font-bold hover:text-gray-900 hover:bg-white hover:rounded-md hover:p-1"
             >
               Contact
@@ -84,9 +84,11 @@ const Navbar = () => {
                 </Link>
                 <Link className="hover:underline" href="/services">
                   Services
-                </Link> <Link className="hover:underline" href="/benefits">
+                </Link>{" "}
+                <Link className="hover:underline" href="/benefits">
                   Benefits
-                </Link> <Link className="hover:underline" href="/careers">
+                </Link>{" "}
+                <Link className="hover:underline" href="/careers">
                   Careers
                 </Link>
                 <Link className="hover:underline" href="/about">

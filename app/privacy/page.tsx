@@ -1,10 +1,10 @@
-import Contact from "@/components/Contact";
+import Privacy from "@/components/Privacy";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <Contact />
+      <Privacy />
     </div>
   );
 };

@@ -28,15 +28,6 @@ const ContactForm = () => {
       {" "}
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-md space-y-6">
-          <div className="space-y-2 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              Get in Touch
-            </h2>
-            <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Have a question or need a quote? Fill out the form below and
-              we&apos;ll get back to you as soon as possible.
-            </p>
-          </div>
           <form className="space-y-4" onSubmit={handleFormSubmit}>
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="space-y-2">

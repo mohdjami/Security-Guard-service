@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar";
 import { JSX, SVGProps } from "react";
@@ -48,8 +48,8 @@ export default function Hero() {
                 customers.
               </p>
               <div className="flex gap-4">
-                <Button variant="secondary">Get a Quote</Button>
-                <Button variant="secondary">Learn More</Button>
+                <Link href="/contact">Get a Quote</Link>
+                <Link href="/services">Learn More</Link>
               </div>
             </div>
             <div className="flex justify-center">
@@ -92,8 +92,8 @@ export default function Hero() {
                 business safe.
               </p>
               <div className="flex gap-4">
-                <Button variant="secondary">Learn More</Button>
-                <Button variant="secondary">Contact Us</Button>
+                <Link href="/services">Learn More</Link>
+                <Link href="/contact">Contact Us</Link>
               </div>
             </div>
           </div>
@@ -132,7 +132,19 @@ export default function Hero() {
         <section className="w-full bg-white  py-12 md:py-24 lg:py-32">
           <FeatureCards />
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-20 bg-gray-100 dark:bg-gray-800">
+        <section
+          className="w-full py-12 md:py-24 lg:py-20 bg-gray-100 dark:bg-gray-800"
+          id="contact"
+        >
+          <div className="space-y-2 text-center py-10">
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+              Get in Touch
+            </h2>
+            <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              Have a question or need a quote? Fill out the form below and
+              we&apos;ll get back to you as soon as possible.
+            </p>
+          </div>{" "}
           <ContactForm />
         </section>
       </main>

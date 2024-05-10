@@ -59,7 +59,7 @@ const About = () => {
                   Contact
                 </Link>{" "}
                 <Link
-                  href="tel:+1 (514) 560‑5863"
+                  href="/privacy"
                   className="flex text-l mx-4 md:text-lg text-white font-normal hover:text-gray-900 hover:bg-white p-1/2 px-1 rounded-lg"
                 >
                   Privacy Policy
