@@ -18,15 +18,15 @@ export default function Privacy() {
               <p className="text-gray-500 dark:text-gray-400">
                 {" "}
                 <br />
-                1.1 We prioritize the privacy of InfiDrive.net visitors and
+                1.1 We prioritize the privacy of Eagle View Security visitors and
                 users. <br />
                 1.2 This policy details our role as a data controller for
-                InfiDrive.net users&apos; personal data. <br />
+                Eagle View Security users&apos; personal data. <br />
                 1.3 Our website uses cookies. <br />
                 1.4 We&apos;ve embedded privacy controls on our website that
                 influence how your personal data is processed. <br />
                 1.5 In this policy, &quot;we&quot;, &quot;us&quot;, and
-                &quot;our&quot; represent InfiDrive.net.
+                &quot;our&quot; represent Eagle View Security.
               </p>
             </div>
             <div>
